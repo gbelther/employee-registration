@@ -1,0 +1,1841 @@
+{
+  "companies": [
+    {
+      "id": "a054f464-c8b9-4f3a-948b-ae52ee9eb354",
+      "name": "Minnie Wisoky",
+      "cnpj": "81125430729348"
+    },
+    {
+      "id": "16c5c693-b8e0-425e-ba83-14f79813a9e7",
+      "name": "Mozell Dibbert",
+      "cnpj": "32693501797103"
+    },
+    {
+      "id": "462be4d5-43a4-44d2-9117-2ae7f56af544",
+      "name": "Marcel Abshire",
+      "cnpj": "25523380639337"
+    }
+  ],
+  "states": [
+    {
+      "id": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+      "name": "Alaska"
+    },
+    {
+      "id": "6d61a756-105c-460c-925a-29c09f80713f",
+      "name": "New York"
+    },
+    {
+      "id": "9c6b3a2a-c57a-4e58-82c2-a556e34dcaa8",
+      "name": "Delaware"
+    },
+    {
+      "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "name": "Alaska"
+    },
+    {
+      "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "name": "California"
+    },
+    {
+      "id": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+      "name": "Alabama"
+    },
+    {
+      "id": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+      "name": "Florida"
+    },
+    {
+      "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "name": "Wyoming"
+    },
+    {
+      "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "name": "Virginia"
+    },
+    {
+      "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "name": "Pennsylvania"
+    },
+    {
+      "id": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+      "name": "Massachusetts"
+    },
+    {
+      "id": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+      "name": "Rhode Island"
+    },
+    {
+      "id": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+      "name": "Indiana"
+    },
+    {
+      "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "name": "New York"
+    },
+    {
+      "id": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+      "name": "Maine"
+    }
+  ],
+  "cities": [
+    {
+      "id": "f4984ca0-6cb1-43f8-ba5d-14cf444bd515",
+      "name": "Wyoming",
+      "id_state": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+      "state": {
+        "id": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "0f52ef1b-9801-496e-9ab6-804713759777",
+      "name": "South Dakota",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "42308d41-57cd-4b4c-b3c8-73e6d9a943e5",
+      "name": "West Virginia",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "3c26e5c1-0877-4a57-a373-475d90752e51",
+      "name": "Kentucky",
+      "id_state": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+      "state": {
+        "id": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+        "name": "Maine"
+      }
+    },
+    {
+      "id": "46f1c34d-ae64-4974-bfe6-4fc5285d3039",
+      "name": "Connecticut",
+      "id_state": "9c6b3a2a-c57a-4e58-82c2-a556e34dcaa8",
+      "state": {
+        "id": "9c6b3a2a-c57a-4e58-82c2-a556e34dcaa8",
+        "name": "Delaware"
+      }
+    },
+    {
+      "id": "309c48a3-fa04-482a-9de4-5c48f2ad4bd3",
+      "name": "North Dakota",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "5e5bd58a-8d2d-4a87-aaba-c1a6c0184452",
+      "name": "Idaho",
+      "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+      "state": {
+        "id": "6d61a756-105c-460c-925a-29c09f80713f",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "ed24ff3a-035d-4d5a-b2f8-3bffb46dbe0c",
+      "name": "Florida",
+      "id_state": "9c6b3a2a-c57a-4e58-82c2-a556e34dcaa8",
+      "state": {
+        "id": "9c6b3a2a-c57a-4e58-82c2-a556e34dcaa8",
+        "name": "Delaware"
+      }
+    },
+    {
+      "id": "a8384773-a112-476e-975c-0b22cccceaf2",
+      "name": "Nevada",
+      "id_state": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+      "state": {
+        "id": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+        "name": "Rhode Island"
+      }
+    },
+    {
+      "id": "774c191f-df89-4111-8af6-50837e6ff627",
+      "name": "Utah",
+      "id_state": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+      "state": {
+        "id": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+        "name": "Indiana"
+      }
+    },
+    {
+      "id": "b89ed960-0ede-4fe8-95dc-91b67a1d59b7",
+      "name": "Utah",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "dae0e452-4e8f-4841-9998-5a5069398616",
+      "name": "Idaho",
+      "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+      "state": {
+        "id": "6d61a756-105c-460c-925a-29c09f80713f",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "2b338644-f739-4afb-8294-241d5e368eb2",
+      "name": "Oklahoma",
+      "id_state": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+      "state": {
+        "id": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+        "name": "Rhode Island"
+      }
+    },
+    {
+      "id": "21eab29c-3872-4079-87b6-3764c586b035",
+      "name": "South Carolina",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "7f08b62c-eb9c-474d-9d90-4010257555f4",
+      "name": "Missouri",
+      "id_state": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+      "state": {
+        "id": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+        "name": "Alabama"
+      }
+    },
+    {
+      "id": "7b17b411-e4d0-4dc1-b35d-75926734fba8",
+      "name": "Maryland",
+      "id_state": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+      "state": {
+        "id": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+        "name": "Massachusetts"
+      }
+    },
+    {
+      "id": "4a971dc2-344c-4716-a750-d6a74d50aaaa",
+      "name": "New Jersey",
+      "id_state": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+      "state": {
+        "id": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "ac9cf847-9b8e-45bf-89c5-cd8e4b8c5aaf",
+      "name": "West Virginia",
+      "id_state": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+      "state": {
+        "id": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+        "name": "Florida"
+      }
+    },
+    {
+      "id": "a0c21aea-b356-4550-844f-b15bbb18dde4",
+      "name": "Minnesota",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "9706e5fd-4599-4d5e-a6fa-c9d054bdeb5a",
+      "name": "Maryland",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "e0533bd3-b087-47de-ba07-973f65cac46f",
+      "name": "New Jersey",
+      "id_state": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+      "state": {
+        "id": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+        "name": "Indiana"
+      }
+    },
+    {
+      "id": "71b0d23a-489e-4727-b427-1387a878ccfe",
+      "name": "South Carolina",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "ccae295b-a262-4b6a-81df-6ee8478e9177",
+      "name": "Maine",
+      "id_state": "9c6b3a2a-c57a-4e58-82c2-a556e34dcaa8",
+      "state": {
+        "id": "9c6b3a2a-c57a-4e58-82c2-a556e34dcaa8",
+        "name": "Delaware"
+      }
+    },
+    {
+      "id": "d1584949-dedd-4a7e-9519-70996a103d38",
+      "name": "Georgia",
+      "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+      "state": {
+        "id": "6d61a756-105c-460c-925a-29c09f80713f",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "5fc16e5f-f535-4d43-be46-d66d30cb0ccb",
+      "name": "Texas",
+      "id_state": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+      "state": {
+        "id": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+        "name": "Indiana"
+      }
+    },
+    {
+      "id": "e3556ce2-b30d-41bb-8a51-f853796803e6",
+      "name": "Kentucky",
+      "id_state": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+      "state": {
+        "id": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "2adffe89-6d6f-4dd6-926c-b54270be1b40",
+      "name": "Arkansas",
+      "id_state": "9c6b3a2a-c57a-4e58-82c2-a556e34dcaa8",
+      "state": {
+        "id": "9c6b3a2a-c57a-4e58-82c2-a556e34dcaa8",
+        "name": "Delaware"
+      }
+    },
+    {
+      "id": "df072042-b32c-4fc6-9976-ec2a0a0d9d8d",
+      "name": "Iowa",
+      "id_state": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "state": {
+        "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+        "name": "California"
+      }
+    },
+    {
+      "id": "62e2f73b-98f5-48e2-954c-9f9acdd0028a",
+      "name": "Kansas",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "4299ddaf-df9e-4113-908a-19a2e052e82d",
+      "name": "Texas",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "6cd165ca-3ea1-4aff-ba4c-6f2e99d80185",
+      "name": "Indiana",
+      "id_state": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+      "state": {
+        "id": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+        "name": "Massachusetts"
+      }
+    },
+    {
+      "id": "231309d3-babb-4545-ae0f-37827babbc52",
+      "name": "New York",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "96ac1a9c-652e-46db-aea6-1e3d1e26d2c7",
+      "name": "Louisiana",
+      "id_state": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+      "state": {
+        "id": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+        "name": "Florida"
+      }
+    },
+    {
+      "id": "88b1cead-b3fd-421d-9953-bc3c4f8ea568",
+      "name": "New Mexico",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "1dc2a7b9-ddbb-4cc4-8ec2-632496a3a3e2",
+      "name": "California",
+      "id_state": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "state": {
+        "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+        "name": "California"
+      }
+    },
+    {
+      "id": "a3dc9447-4acb-4cbd-8735-5f628528dfd9",
+      "name": "Oklahoma",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "55238ad1-f6e9-4639-a4c4-01821f5b6964",
+      "name": "Louisiana",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "111d681f-59b0-4dd1-97da-1fff8a666a18",
+      "name": "Tennessee",
+      "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "state": {
+        "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "ce7af911-6d14-4a76-a54c-1716262472bb",
+      "name": "Florida",
+      "id_state": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "state": {
+        "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+        "name": "California"
+      }
+    },
+    {
+      "id": "4285bf2c-50b6-4889-be79-897f81a59bf7",
+      "name": "Indiana",
+      "id_state": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+      "state": {
+        "id": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+        "name": "Rhode Island"
+      }
+    },
+    {
+      "id": "5a160b9c-7d2d-46a0-af35-e610719b71f8",
+      "name": "Maryland",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "baa22a0d-3ca3-41f3-94e2-e888a261cd1a",
+      "name": "New Mexico",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "7f639a4b-02a9-4d80-a42f-17b5d7148815",
+      "name": "Oklahoma",
+      "id_state": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+      "state": {
+        "id": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+        "name": "Maine"
+      }
+    },
+    {
+      "id": "67431474-a2e8-4c98-b677-22d908c1b6f4",
+      "name": "South Dakota",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "937a0660-3f55-4792-b0d6-ecafe5fc292a",
+      "name": "Virginia",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "a6abb40d-2694-4bbe-b0cc-907a4cfe4d4e",
+      "name": "New Hampshire",
+      "id_state": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+      "state": {
+        "id": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+        "name": "Alabama"
+      }
+    },
+    {
+      "id": "e91e4b62-9b5b-4b6b-944d-244cc76db0b0",
+      "name": "Arizona",
+      "id_state": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "state": {
+        "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+        "name": "California"
+      }
+    },
+    {
+      "id": "0297caf2-046c-4978-900a-9a639e46ec85",
+      "name": "New Hampshire",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "14f559e1-5665-4996-81c1-a979f83117f5",
+      "name": "Iowa",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "dd2423d4-c29a-4abb-9748-c8327716590b",
+      "name": "Iowa",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "6cc5eebe-f652-47ee-ada7-6e60bd99d4b1",
+      "name": "California",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "80a2411c-16ce-44df-98e5-ad33ed682b1e",
+      "name": "Ohio",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "c4575090-b50f-4190-9365-ee2a65bf3a2e",
+      "name": "Massachusetts",
+      "id_state": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "state": {
+        "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+        "name": "California"
+      }
+    },
+    {
+      "id": "6361d6ee-047a-4ec6-85d5-09e044679e70",
+      "name": "Florida",
+      "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "state": {
+        "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "abec2f01-ff1d-4c00-b8e3-0b68535e9c3f",
+      "name": "Oregon",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "bd4990d1-b772-45ef-90a0-6caba2568a6b",
+      "name": "Missouri",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "087b73eb-0cdf-48f0-baeb-0593333e8552",
+      "name": "Oregon",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "afe789ed-d644-4589-b72a-cdd4eb0a925d",
+      "name": "Tennessee",
+      "id_state": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+      "state": {
+        "id": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+        "name": "Alabama"
+      }
+    },
+    {
+      "id": "ced2ea5b-88b0-4506-a5b8-5f895c994801",
+      "name": "Hawaii",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "e7ac1029-9451-49c5-8a09-b17cda51ee66",
+      "name": "North Carolina",
+      "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "state": {
+        "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "9c20abc9-5ecf-4ee9-8b8d-02d3952356f7",
+      "name": "Michigan",
+      "id_state": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "state": {
+        "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+        "name": "California"
+      }
+    },
+    {
+      "id": "b1e35b07-f8d6-4bbc-a036-a7596de89ab6",
+      "name": "New York",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "b562e7e6-1083-4e45-9b80-1722d8fc43e3",
+      "name": "Montana",
+      "id_state": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "state": {
+        "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+        "name": "California"
+      }
+    },
+    {
+      "id": "5c89e229-f02d-43be-a575-0bf79d4f5119",
+      "name": "Oklahoma",
+      "id_state": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+      "state": {
+        "id": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+        "name": "Indiana"
+      }
+    },
+    {
+      "id": "db6f9297-545f-485d-8498-6c1951c83b4a",
+      "name": "Wisconsin",
+      "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "state": {
+        "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "b0058092-6d1a-48f5-ab24-c281b5934e4f",
+      "name": "Kentucky",
+      "id_state": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+      "state": {
+        "id": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "c769af64-cb10-4fb9-ab53-ec34f3e679fc",
+      "name": "Wyoming",
+      "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "state": {
+        "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "3349ea91-e235-4797-921c-5c7853a3d3d7",
+      "name": "Colorado",
+      "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+      "state": {
+        "id": "6d61a756-105c-460c-925a-29c09f80713f",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "7bf97507-8997-4633-98ca-260f1a481206",
+      "name": "Rhode Island",
+      "id_state": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+      "state": {
+        "id": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+        "name": "Maine"
+      }
+    },
+    {
+      "id": "f63ef8cf-7e85-4f53-be3e-4cc56a1e2675",
+      "name": "Wisconsin",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "58c799e7-1927-47b0-9bc1-44c18baffa72",
+      "name": "Vermont",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "fd2deb4a-580a-4e83-a255-271cd80afafc",
+      "name": "Florida",
+      "id_state": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+      "state": {
+        "id": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+        "name": "Indiana"
+      }
+    },
+    {
+      "id": "5ef3814a-9b24-4da9-aafa-799711d0716d",
+      "name": "Maryland",
+      "id_state": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+      "state": {
+        "id": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+        "name": "Florida"
+      }
+    },
+    {
+      "id": "d92b5410-5a24-46f2-a960-7eb9eaf199bd",
+      "name": "South Carolina",
+      "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+      "state": {
+        "id": "6d61a756-105c-460c-925a-29c09f80713f",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "98bdace0-932d-4daa-b588-e84e9a4a7a06",
+      "name": "Wisconsin",
+      "id_state": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+      "state": {
+        "id": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "fc04921f-207c-4334-914f-badd6bbf27b8",
+      "name": "Connecticut",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "d65ca4a2-361a-45a4-8b5f-9bf822da4bf2",
+      "name": "South Carolina",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "0dbc1dc6-5b65-4a37-ac4f-956812faecc1",
+      "name": "Mississippi",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "c9f10c0f-a787-45f6-8573-024cfbf2466b",
+      "name": "Georgia",
+      "id_state": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+      "state": {
+        "id": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+        "name": "Alabama"
+      }
+    },
+    {
+      "id": "4bffff81-6194-4941-881d-b3f26b00139b",
+      "name": "North Dakota",
+      "id_state": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+      "state": {
+        "id": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+        "name": "Indiana"
+      }
+    },
+    {
+      "id": "4fbfb685-9410-4eb8-a6ea-8a67c5af84e0",
+      "name": "Utah",
+      "id_state": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+      "state": {
+        "id": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+        "name": "Rhode Island"
+      }
+    },
+    {
+      "id": "7ae9eb3b-4706-417a-813c-764736498382",
+      "name": "Florida",
+      "id_state": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "state": {
+        "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+        "name": "California"
+      }
+    },
+    {
+      "id": "e07d9470-9303-4132-a459-b8767c406e06",
+      "name": "New Jersey",
+      "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+      "state": {
+        "id": "6d61a756-105c-460c-925a-29c09f80713f",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "bebea777-bab7-4325-afd1-aac1960d1991",
+      "name": "Maryland",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "ebbf6d33-b96c-4641-849f-5f9bd0e6d3a1",
+      "name": "Colorado",
+      "id_state": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+      "state": {
+        "id": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+        "name": "Alabama"
+      }
+    },
+    {
+      "id": "0d834f7e-4c7b-44ec-8278-d8c6fda0b2f0",
+      "name": "Nebraska",
+      "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+      "state": {
+        "id": "6d61a756-105c-460c-925a-29c09f80713f",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "c404e4b6-2dab-4f2d-b27f-cfcd9467e485",
+      "name": "Kansas",
+      "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "state": {
+        "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "e1d9bbd3-010f-411f-8ff9-1421020c120f",
+      "name": "Nevada",
+      "id_state": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+      "state": {
+        "id": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+        "name": "Florida"
+      }
+    },
+    {
+      "id": "3e13ee7d-1be1-40fe-8aa8-7e2e8a31a348",
+      "name": "Connecticut",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "ce771c0f-573d-4855-b729-bbcd23544afd",
+      "name": "Indiana",
+      "id_state": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+      "state": {
+        "id": "e0c4a045-eafd-48fd-8272-16367f7c22b6",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "a7f6a595-744f-4f6b-9baa-e393063020c5",
+      "name": "North Carolina",
+      "id_state": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+      "state": {
+        "id": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+        "name": "Alabama"
+      }
+    },
+    {
+      "id": "8a19069f-41c1-492f-bc8e-169fb9e31201",
+      "name": "Georgia",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "1d7940b0-2fd7-4db1-9634-e2f1f92b5c94",
+      "name": "North Dakota",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "e693f65a-c4d6-46b0-9ebb-cbfe23f7e061",
+      "name": "New Jersey",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "4ea4d645-9e34-4647-96d9-6e59f139e125",
+      "name": "North Carolina",
+      "id_state": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+      "state": {
+        "id": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+        "name": "Maine"
+      }
+    },
+    {
+      "id": "d4749fa8-0800-45c8-8075-05ba868887fa",
+      "name": "West Virginia",
+      "id_state": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+      "state": {
+        "id": "731b3f87-3710-458a-9a67-18b1dbc6d717",
+        "name": "Alaska"
+      }
+    },
+    {
+      "id": "4a95c96d-13ed-43cd-8de6-7bcfbdaf03fb",
+      "name": "Idaho",
+      "id_state": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+      "state": {
+        "id": "8e9ff10c-81fc-4b60-bec5-fc5aabdae279",
+        "name": "California"
+      }
+    },
+    {
+      "id": "9a746bc5-2d8d-4678-b7d4-3c47ac973988",
+      "name": "Tennessee",
+      "id_state": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+      "state": {
+        "id": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+        "name": "Maine"
+      }
+    },
+    {
+      "id": "97c1e56e-08d4-44f5-b2e4-c92db8157776",
+      "name": "Indiana",
+      "id_state": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+      "state": {
+        "id": "49d450aa-1c47-4776-9ae6-86fa3c0449a9",
+        "name": "Pennsylvania"
+      }
+    },
+    {
+      "id": "46edbd38-c59f-4ef7-ad23-7e9c51706915",
+      "name": "Massachusetts",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "2886bed6-ae13-4580-b5bd-ff8e8b953282",
+      "name": "Pennsylvania",
+      "id_state": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+      "state": {
+        "id": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+        "name": "Rhode Island"
+      }
+    },
+    {
+      "id": "536c6881-91ac-43d6-a32b-7197e378aa9a",
+      "name": "Nevada",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "9582ba03-ba1c-41ac-bcc6-9d78b451fd77",
+      "name": "Indiana",
+      "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "state": {
+        "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "4fedb2a7-407c-4034-80f5-4595dc211e9c",
+      "name": "Georgia",
+      "id_state": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+      "state": {
+        "id": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+        "name": "Maine"
+      }
+    },
+    {
+      "id": "23c69e46-ce86-439d-af7d-9a7021f7f5d6",
+      "name": "South Dakota",
+      "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "state": {
+        "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "b2a5008a-4e3e-4d3b-bbce-ef03f7511f2d",
+      "name": "Oklahoma",
+      "id_state": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+      "state": {
+        "id": "49239be9-bda7-4942-99d0-1ea5228bc3ab",
+        "name": "Alabama"
+      }
+    },
+    {
+      "id": "97031da5-a13b-4017-a017-e56b12f0b1fd",
+      "name": "Colorado",
+      "id_state": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+      "state": {
+        "id": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+        "name": "Florida"
+      }
+    },
+    {
+      "id": "d3ddef1b-a98b-45a0-8f55-d646413227c4",
+      "name": "Colorado",
+      "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+      "state": {
+        "id": "6d61a756-105c-460c-925a-29c09f80713f",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "36e28aa4-c840-4c39-9af0-5d9955e69a64",
+      "name": "Idaho",
+      "id_state": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+      "state": {
+        "id": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+        "name": "Maine"
+      }
+    },
+    {
+      "id": "38a8b0df-cb4b-4866-8b9e-e65bf0284177",
+      "name": "North Dakota",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "81b26d5e-d87f-4640-b18c-54966366bc9b",
+      "name": "Washington",
+      "id_state": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+      "state": {
+        "id": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+        "name": "Massachusetts"
+      }
+    },
+    {
+      "id": "3b1d7a3b-b2b1-42fc-8ead-60b7df350707",
+      "name": "Vermont",
+      "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+      "state": {
+        "id": "6d61a756-105c-460c-925a-29c09f80713f",
+        "name": "New York"
+      }
+    },
+    {
+      "id": "302f9380-aa81-42b9-9770-2e8854649b40",
+      "name": "Hawaii",
+      "id_state": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+      "state": {
+        "id": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+        "name": "Massachusetts"
+      }
+    },
+    {
+      "id": "26bf4d39-bd18-45f4-890d-fe15fc8341c8",
+      "name": "Virginia",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "5e16c0c5-3b88-48c0-8f1d-41f8c9be1d39",
+      "name": "New Hampshire",
+      "id_state": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+      "state": {
+        "id": "ff443ae6-9d9c-4177-8a71-84eddce94c38",
+        "name": "Indiana"
+      }
+    },
+    {
+      "id": "2de090c7-0795-4455-ba41-da3c71fbb467",
+      "name": "Massachusetts",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "01f085e6-a6b5-44dd-acf3-d20bcfcbfa71",
+      "name": "Hawaii",
+      "id_state": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+      "state": {
+        "id": "6959d52a-1965-4f7b-9c89-6b84e4b62370",
+        "name": "Rhode Island"
+      }
+    },
+    {
+      "id": "fb094355-6cd2-453c-b9e1-d31d361994dc",
+      "name": "Idaho",
+      "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+      "state": {
+        "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "id": "596caa76-db69-47e1-b05c-85bf70fd25e2",
+      "name": "Tennessee",
+      "id_state": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+      "state": {
+        "id": "1b60007f-5a55-4a46-85b5-470eb15fb21c",
+        "name": "Virginia"
+      }
+    },
+    {
+      "id": "e97e9d05-3e60-41df-b96e-732a5d4c0cb0",
+      "name": "Hawaii",
+      "id_state": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+      "state": {
+        "id": "517671e4-1688-4145-a69d-0b02ed2a64c2",
+        "name": "Massachusetts"
+      }
+    }
+  ],
+  "sectors": [
+    {
+      "id": "957d7897-a481-4af3-bf9e-18bd3ed87cc0",
+      "name": "Movies"
+    },
+    {
+      "id": "26e9b2f8-51b0-41dd-a5da-ba433c219b53",
+      "name": "Home"
+    },
+    {
+      "id": "58bd71a7-0fdd-4224-addf-e75627a9542c",
+      "name": "Garden"
+    },
+    {
+      "id": "0ff2deec-945f-49c6-b40e-0407b248c9b5",
+      "name": "Health"
+    },
+    {
+      "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "name": "Shoes"
+    },
+    {
+      "id": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+      "name": "Toys"
+    },
+    {
+      "id": "fb110803-1311-4fc0-a882-b4cf4d0e2637",
+      "name": "Computers"
+    },
+    {
+      "id": "96be861d-637b-45ae-b01f-b869d63a0e74",
+      "name": "Kids"
+    },
+    {
+      "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+      "name": "Books"
+    },
+    {
+      "id": "42b7c8ed-7c57-470a-acc4-2d1d14e99cd2",
+      "name": "Computers"
+    }
+  ],
+  "roles": [
+    {
+      "id": "76241f5a-d18e-42b7-a254-01f12d09b02c",
+      "name": "Clothing",
+      "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "sector": {
+        "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "name": "Shoes"
+      }
+    },
+    {
+      "id": "3118aa40-bdf9-4ab8-a497-1ed9c85f729a",
+      "name": "Home",
+      "id_sector": "957d7897-a481-4af3-bf9e-18bd3ed87cc0",
+      "sector": {
+        "id": "957d7897-a481-4af3-bf9e-18bd3ed87cc0",
+        "name": "Movies"
+      }
+    },
+    {
+      "id": "74a3bd9c-14d6-4734-bfbf-6ae1e9d51e3a",
+      "name": "Music",
+      "id_sector": "96be861d-637b-45ae-b01f-b869d63a0e74",
+      "sector": {
+        "id": "96be861d-637b-45ae-b01f-b869d63a0e74",
+        "name": "Kids"
+      }
+    },
+    {
+      "id": "c964bf60-c070-41e1-8c0f-8ee80b007e4e",
+      "name": "Tools",
+      "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+      "sector": {
+        "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "name": "Books"
+      }
+    },
+    {
+      "id": "0462fdcf-ede7-40c0-af9d-8e7893340961",
+      "name": "Books",
+      "id_sector": "26e9b2f8-51b0-41dd-a5da-ba433c219b53",
+      "sector": {
+        "id": "26e9b2f8-51b0-41dd-a5da-ba433c219b53",
+        "name": "Home"
+      }
+    },
+    {
+      "id": "ba14cbbb-9961-42c1-9aa4-60f39fe653b7",
+      "name": "Clothing",
+      "id_sector": "42b7c8ed-7c57-470a-acc4-2d1d14e99cd2",
+      "sector": {
+        "id": "42b7c8ed-7c57-470a-acc4-2d1d14e99cd2",
+        "name": "Computers"
+      }
+    },
+    {
+      "id": "3b38e7cb-0dcd-410a-b78f-7568acba8a7a",
+      "name": "Home",
+      "id_sector": "58bd71a7-0fdd-4224-addf-e75627a9542c",
+      "sector": {
+        "id": "58bd71a7-0fdd-4224-addf-e75627a9542c",
+        "name": "Garden"
+      }
+    },
+    {
+      "id": "8d3bcfad-9e39-453c-987b-68794c85d495",
+      "name": "Grocery",
+      "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+      "sector": {
+        "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "name": "Books"
+      }
+    },
+    {
+      "id": "ed953410-8768-42f2-af49-ae43280cfb2b",
+      "name": "Clothing",
+      "id_sector": "fb110803-1311-4fc0-a882-b4cf4d0e2637",
+      "sector": {
+        "id": "fb110803-1311-4fc0-a882-b4cf4d0e2637",
+        "name": "Computers"
+      }
+    },
+    {
+      "id": "bcd2f4d2-327b-4334-a2c8-adcc35888585",
+      "name": "Music",
+      "id_sector": "26e9b2f8-51b0-41dd-a5da-ba433c219b53",
+      "sector": {
+        "id": "26e9b2f8-51b0-41dd-a5da-ba433c219b53",
+        "name": "Home"
+      }
+    },
+    {
+      "id": "76def512-533b-49c3-9ea6-153d5b418bfa",
+      "name": "Movies",
+      "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+      "sector": {
+        "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "name": "Books"
+      }
+    },
+    {
+      "id": "5bf12455-c981-4da9-b8f9-244fad3f5d2a",
+      "name": "Clothing",
+      "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+      "sector": {
+        "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "name": "Books"
+      }
+    },
+    {
+      "id": "b6b814bb-de83-4fe6-b2c8-ce47e4c24521",
+      "name": "Toys",
+      "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "sector": {
+        "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "name": "Shoes"
+      }
+    },
+    {
+      "id": "4ec890a6-e51d-4e77-b3aa-d1ff9fbae2e5",
+      "name": "Beauty",
+      "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "sector": {
+        "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "name": "Shoes"
+      }
+    },
+    {
+      "id": "0cf53b59-f114-448b-82b1-c3814ab7822c",
+      "name": "Automotive",
+      "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "sector": {
+        "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "name": "Shoes"
+      }
+    },
+    {
+      "id": "b5134182-f3d2-4a99-aeb3-60ddf828caeb",
+      "name": "Toys",
+      "id_sector": "957d7897-a481-4af3-bf9e-18bd3ed87cc0",
+      "sector": {
+        "id": "957d7897-a481-4af3-bf9e-18bd3ed87cc0",
+        "name": "Movies"
+      }
+    },
+    {
+      "id": "fb768a10-d1f2-4a22-8cb8-9f6608228689",
+      "name": "Industrial",
+      "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+      "sector": {
+        "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "name": "Books"
+      }
+    },
+    {
+      "id": "33e68da6-fd39-4131-8201-43722f87e45c",
+      "name": "Outdoors",
+      "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "sector": {
+        "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "name": "Shoes"
+      }
+    },
+    {
+      "id": "9fee0811-b339-4aaa-9007-df0ba2d4d278",
+      "name": "Books",
+      "id_sector": "0ff2deec-945f-49c6-b40e-0407b248c9b5",
+      "sector": {
+        "id": "0ff2deec-945f-49c6-b40e-0407b248c9b5",
+        "name": "Health"
+      }
+    },
+    {
+      "id": "0a3164d5-81f3-41f4-8132-129fae6944a9",
+      "name": "Industrial",
+      "id_sector": "58bd71a7-0fdd-4224-addf-e75627a9542c",
+      "sector": {
+        "id": "58bd71a7-0fdd-4224-addf-e75627a9542c",
+        "name": "Garden"
+      }
+    },
+    {
+      "id": "ea308854-9ce8-4309-b876-5f63ee1c7886",
+      "name": "Games",
+      "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "sector": {
+        "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "name": "Shoes"
+      }
+    },
+    {
+      "id": "f8d06ced-74cc-44a2-8cf6-1f0fb7c06ca7",
+      "name": "Clothing",
+      "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+      "sector": {
+        "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "name": "Books"
+      }
+    },
+    {
+      "id": "a05398cd-1b13-4192-b187-73a9e159322f",
+      "name": "Jewelery",
+      "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "sector": {
+        "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "name": "Shoes"
+      }
+    },
+    {
+      "id": "5ab6297c-17f4-4308-98ba-19a10a501e4f",
+      "name": "Beauty",
+      "id_sector": "42b7c8ed-7c57-470a-acc4-2d1d14e99cd2",
+      "sector": {
+        "id": "42b7c8ed-7c57-470a-acc4-2d1d14e99cd2",
+        "name": "Computers"
+      }
+    },
+    {
+      "id": "c1b4fc28-a32f-4e9e-b9a2-d1c26bcd3805",
+      "name": "Games",
+      "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "sector": {
+        "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "name": "Shoes"
+      }
+    },
+    {
+      "id": "637e1bea-ffff-4bd0-97bd-1fde5e116af4",
+      "name": "Movies",
+      "id_sector": "fb110803-1311-4fc0-a882-b4cf4d0e2637",
+      "sector": {
+        "id": "fb110803-1311-4fc0-a882-b4cf4d0e2637",
+        "name": "Computers"
+      }
+    },
+    {
+      "id": "9bb0df67-dd1a-4e66-9bb0-c7ba1f7c11d9",
+      "name": "Industrial",
+      "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+      "sector": {
+        "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "name": "Books"
+      }
+    },
+    {
+      "id": "1b6f8828-8898-4498-ab3a-9a6f14191712",
+      "name": "Home",
+      "id_sector": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+      "sector": {
+        "id": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+        "name": "Toys"
+      }
+    },
+    {
+      "id": "e9a0f6c3-1343-41b3-aa13-9ec85b094d71",
+      "name": "Health",
+      "id_sector": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+      "sector": {
+        "id": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+        "name": "Toys"
+      }
+    },
+    {
+      "id": "66638e3e-a7d1-4efd-8b6f-2781eb446d56",
+      "name": "Grocery",
+      "id_sector": "42b7c8ed-7c57-470a-acc4-2d1d14e99cd2",
+      "sector": {
+        "id": "42b7c8ed-7c57-470a-acc4-2d1d14e99cd2",
+        "name": "Computers"
+      }
+    },
+    {
+      "id": "3bbb66e2-49f6-4114-826d-377266e6bc5e",
+      "name": "Industrial",
+      "id_sector": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+      "sector": {
+        "id": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+        "name": "Toys"
+      }
+    },
+    {
+      "id": "a29e528f-b425-4e1d-b05a-88ea45027b01",
+      "name": "Automotive",
+      "id_sector": "26e9b2f8-51b0-41dd-a5da-ba433c219b53",
+      "sector": {
+        "id": "26e9b2f8-51b0-41dd-a5da-ba433c219b53",
+        "name": "Home"
+      }
+    },
+    {
+      "id": "30e8ee15-7d80-4f7d-93b4-497d1daf2014",
+      "name": "Automotive",
+      "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+      "sector": {
+        "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "name": "Shoes"
+      }
+    },
+    {
+      "id": "1cb35db2-b247-4658-aab4-d8894d6279f3",
+      "name": "Sports",
+      "id_sector": "42b7c8ed-7c57-470a-acc4-2d1d14e99cd2",
+      "sector": {
+        "id": "42b7c8ed-7c57-470a-acc4-2d1d14e99cd2",
+        "name": "Computers"
+      }
+    },
+    {
+      "id": "0a70c315-0c50-4419-abc8-d88cd742d5f8",
+      "name": "Beauty",
+      "id_sector": "957d7897-a481-4af3-bf9e-18bd3ed87cc0",
+      "sector": {
+        "id": "957d7897-a481-4af3-bf9e-18bd3ed87cc0",
+        "name": "Movies"
+      }
+    },
+    {
+      "id": "d6dc4a2b-480d-4e28-81e7-3b21da0a5e40",
+      "name": "Electronics",
+      "id_sector": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+      "sector": {
+        "id": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+        "name": "Toys"
+      }
+    },
+    {
+      "id": "fb993379-bbab-4e07-8c1f-2011a44c1c92",
+      "name": "Clothing",
+      "id_sector": "58bd71a7-0fdd-4224-addf-e75627a9542c",
+      "sector": {
+        "id": "58bd71a7-0fdd-4224-addf-e75627a9542c",
+        "name": "Garden"
+      }
+    },
+    {
+      "id": "b6d2bcc1-8bea-4947-ad5c-d60fc08b7013",
+      "name": "Games",
+      "id_sector": "96be861d-637b-45ae-b01f-b869d63a0e74",
+      "sector": {
+        "id": "96be861d-637b-45ae-b01f-b869d63a0e74",
+        "name": "Kids"
+      }
+    },
+    {
+      "id": "afcedbee-b43c-416b-abae-dc798cf9fba5",
+      "name": "Grocery",
+      "id_sector": "96be861d-637b-45ae-b01f-b869d63a0e74",
+      "sector": {
+        "id": "96be861d-637b-45ae-b01f-b869d63a0e74",
+        "name": "Kids"
+      }
+    },
+    {
+      "id": "99362d91-3a42-40ce-92f1-1332299488fb",
+      "name": "Electronics",
+      "id_sector": "26e9b2f8-51b0-41dd-a5da-ba433c219b53",
+      "sector": {
+        "id": "26e9b2f8-51b0-41dd-a5da-ba433c219b53",
+        "name": "Home"
+      }
+    }
+  ],
+  "employees": [
+    {
+      "id": "3a49aa87-351e-47b5-8c34-d74bb69eae22",
+      "name": "Willow Frami",
+      "cpf": "76436722648",
+      "rg": "283006253",
+      "birthday": "1985-10-24T09:45:20.430Z",
+      "street": "Karelle Plain",
+      "number": "619",
+      "city": {
+        "id": "42308d41-57cd-4b4c-b3c8-73e6d9a943e5",
+        "name": "West Virginia",
+        "id_state": "7495868a-20c1-4aa3-befd-21e118b8417a",
+        "state": {
+          "id": "7495868a-20c1-4aa3-befd-21e118b8417a",
+          "name": "Wyoming"
+        }
+      },
+      "email": "Kristopher_Koepp@example.net",
+      "phone": "2783195884",
+      "role": {
+        "id": "c1b4fc28-a32f-4e9e-b9a2-d1c26bcd3805",
+        "name": "Games",
+        "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "sector": {
+          "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+          "name": "Shoes"
+        }
+      },
+      "id_company": "a054f464-c8b9-4f3a-948b-ae52ee9eb354"
+    },
+    {
+      "id": "7748d347-eadd-4a48-8330-833f296694a5",
+      "name": "Golden Doyle",
+      "cpf": "70510606466",
+      "rg": "343456923",
+      "birthday": "1980-10-06T13:17:31.016Z",
+      "street": "Dudley Brook",
+      "number": "707",
+      "city": {
+        "id": "e7ac1029-9451-49c5-8a09-b17cda51ee66",
+        "name": "North Carolina",
+        "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "state": {
+          "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+          "name": "New York"
+        }
+      },
+      "uf": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+      "email": "Jillian72@example.org",
+      "phone": "8675179607",
+      "role": {
+        "id": "3bbb66e2-49f6-4114-826d-377266e6bc5e",
+        "name": "Industrial",
+        "id_sector": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+        "sector": {
+          "id": "bc058ff9-b9e3-4d0f-a841-d21dcc2670be",
+          "name": "Toys"
+        }
+      },
+      "id_company": "462be4d5-43a4-44d2-9117-2ae7f56af544"
+    },
+    {
+      "id": "d3279039-1430-4d25-978c-8d650ce84d4b",
+      "name": "Gracie Cormier",
+      "cpf": "54773365069",
+      "rg": "365601690",
+      "birthday": "1964-10-20T19:47:01.935Z",
+      "street": "Mills Field",
+      "number": "730",
+      "city": {
+        "id": "e1d9bbd3-010f-411f-8ff9-1421020c120f",
+        "name": "Nevada",
+        "id_state": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+        "state": {
+          "id": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+          "name": "Florida"
+        }
+      },
+      "email": "Aliya_Kutch@example.net",
+      "phone": "5703212197",
+      "role": {
+        "id": "637e1bea-ffff-4bd0-97bd-1fde5e116af4",
+        "name": "Movies",
+        "id_sector": "fb110803-1311-4fc0-a882-b4cf4d0e2637",
+        "sector": {
+          "id": "fb110803-1311-4fc0-a882-b4cf4d0e2637",
+          "name": "Computers"
+        }
+      },
+      "id_company": "462be4d5-43a4-44d2-9117-2ae7f56af544"
+    },
+    {
+      "id": "9744297c-0cd2-4568-9013-64e219e9d3b6",
+      "name": "Grant Effertz",
+      "cpf": "69279357968",
+      "rg": "512861481",
+      "birthday": "1996-01-02T20:31:43.337Z",
+      "street": "Halvorson Village",
+      "number": "975",
+      "city": {
+        "id": "d3ddef1b-a98b-45a0-8f55-d646413227c4",
+        "name": "Colorado",
+        "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+        "state": {
+          "id": "6d61a756-105c-460c-925a-29c09f80713f",
+          "name": "New York"
+        }
+      },
+      "email": "Otha_Boyer@example.org",
+      "phone": "8195862415",
+      "role": {
+        "id": "5bf12455-c981-4da9-b8f9-244fad3f5d2a",
+        "name": "Clothing",
+        "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "sector": {
+          "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+          "name": "Books"
+        }
+      },
+      "id_company": "a054f464-c8b9-4f3a-948b-ae52ee9eb354"
+    },
+    {
+      "id": "20c3ea5e-7035-46fe-bec0-28ee4298ad8c",
+      "name": "Marvin Weissnat",
+      "cpf": "12682433030",
+      "rg": "334640505",
+      "birthday": "1990-04-16T12:51:24.860Z",
+      "street": "Hodkiewicz Inlet",
+      "number": "188",
+      "city": {
+        "id": "4fedb2a7-407c-4034-80f5-4595dc211e9c",
+        "name": "Georgia",
+        "id_state": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+        "state": {
+          "id": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+          "name": "Maine"
+        }
+      },
+      "uf": "2ecdbe69-c063-4a7e-a07b-2dfa658acdaf",
+      "email": "Hipolito46@example.org",
+      "phone": "1183995529",
+      "role": {
+        "id": "b6b814bb-de83-4fe6-b2c8-ce47e4c24521",
+        "name": "Toys",
+        "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "sector": {
+          "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+          "name": "Shoes"
+        }
+      },
+      "id_company": "16c5c693-b8e0-425e-ba83-14f79813a9e7"
+    },
+    {
+      "id": "3712b57a-21af-42c3-85a9-6ad41d8d25d2",
+      "name": "Vena Rogahn",
+      "cpf": "46379790067",
+      "rg": "320317005",
+      "birthday": "1970-09-10T01:29:32.732Z",
+      "street": "Alvah Heights",
+      "number": "454",
+      "city": {
+        "id": "23c69e46-ce86-439d-af7d-9a7021f7f5d6",
+        "name": "South Dakota",
+        "id_state": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+        "state": {
+          "id": "68211c71-b553-4b4e-9995-49ba0ffe3c9d",
+          "name": "New York"
+        }
+      },
+      "email": "Fleta.Jacobs@example.com",
+      "phone": "5842415886",
+      "role": {
+        "id": "637e1bea-ffff-4bd0-97bd-1fde5e116af4",
+        "name": "Movies",
+        "id_sector": "fb110803-1311-4fc0-a882-b4cf4d0e2637",
+        "sector": {
+          "id": "fb110803-1311-4fc0-a882-b4cf4d0e2637",
+          "name": "Computers"
+        }
+      },
+      "id_company": "462be4d5-43a4-44d2-9117-2ae7f56af544"
+    },
+    {
+      "id": "6a3a3e85-ef1c-4f12-9691-704a6b79e632",
+      "name": "Oliver Schinner",
+      "cpf": "22985609089",
+      "rg": "525148926",
+      "birthday": "1983-02-16T21:26:50.903Z",
+      "street": "Amparo Viaduct",
+      "number": "442",
+      "city": {
+        "id": "ac9cf847-9b8e-45bf-89c5-cd8e4b8c5aaf",
+        "name": "West Virginia",
+        "id_state": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+        "state": {
+          "id": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+          "name": "Florida"
+        }
+      },
+      "email": "Ardella19@example.net",
+      "phone": "2210404453",
+      "role": {
+        "id": "33e68da6-fd39-4131-8201-43722f87e45c",
+        "name": "Outdoors",
+        "id_sector": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+        "sector": {
+          "id": "9da6a1ea-1864-4e9b-ab8f-5fcadd9d47c3",
+          "name": "Shoes"
+        }
+      },
+      "id_company": "a054f464-c8b9-4f3a-948b-ae52ee9eb354"
+    },
+    {
+      "id": "05ec47d0-fa16-4bfe-89b2-5b86db90cc97",
+      "name": "Delta Hudson",
+      "cpf": "11013171181",
+      "rg": "305570191",
+      "birthday": "1967-02-13T10:55:37.459Z",
+      "street": "Dare Ports",
+      "number": "713",
+      "city": {
+        "id": "e07d9470-9303-4132-a459-b8767c406e06",
+        "name": "New Jersey",
+        "id_state": "6d61a756-105c-460c-925a-29c09f80713f",
+        "state": {
+          "id": "6d61a756-105c-460c-925a-29c09f80713f",
+          "name": "New York"
+        }
+      },
+      "email": "Loren39@example.com",
+      "phone": "7047414169",
+      "role": {
+        "id": "c964bf60-c070-41e1-8c0f-8ee80b007e4e",
+        "name": "Tools",
+        "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "sector": {
+          "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+          "name": "Books"
+        }
+      },
+      "id_company": "462be4d5-43a4-44d2-9117-2ae7f56af544"
+    },
+    {
+      "id": "5c1824c8-ae2a-466e-b585-3068d7fa96f1",
+      "name": "Shyanne Corkery",
+      "cpf": "64736066408",
+      "rg": "795695248",
+      "birthday": "1999-09-26T04:46:55.199Z",
+      "street": "Aletha Hills",
+      "number": "325",
+      "city": {
+        "id": "ac9cf847-9b8e-45bf-89c5-cd8e4b8c5aaf",
+        "name": "West Virginia",
+        "id_state": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+        "state": {
+          "id": "df90d135-103a-4b60-a1d1-f6b6ec454677",
+          "name": "Florida"
+        }
+      },
+      "email": "Brenda.Gerlach@example.net",
+      "phone": "6986490267",
+      "role": {
+        "id": "8d3bcfad-9e39-453c-987b-68794c85d495",
+        "name": "Grocery",
+        "id_sector": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+        "sector": {
+          "id": "06efa29d-3f4a-4d69-b784-d087e02fe191",
+          "name": "Books"
+        }
+      },
+      "id_company": "a054f464-c8b9-4f3a-948b-ae52ee9eb354"
+    }
+  ]
+}
