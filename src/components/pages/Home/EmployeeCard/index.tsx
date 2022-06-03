@@ -2,6 +2,8 @@ import { format } from "date-fns";
 import { Fragment, useMemo, useState } from "react";
 
 import { IEmployeeDTO } from "../../../../services/employeesService/dtos/EmployeeDTO";
+import { updateStatusEmployee } from "../../../../store/employees/thunks/updateStatusEmployee";
+import { useAppDispatch } from "../../../../store/hooks";
 import { cpfMask, telMask } from "../../../../utils/inputMasks";
 import { ModalEmployee } from "../ModalEmployee";
 
@@ -12,7 +14,18 @@ interface IEmployeeCardProps {
 }
 
 export function EmployeeCard({ employeeData }: IEmployeeCardProps) {
+  const dispatch = useAppDispatch();
+
   const [showModalEmployee, setShowModalEmployee] = useState(false);
+
+  function changeStatus() {
+    dispatch(
+      updateStatusEmployee({
+        id: employeeData.id,
+        isActive: !employeeData.is_active,
+      })
+    );
+  }
 
   const employeeDataFormatted = useMemo(() => {
     return {
@@ -27,9 +40,15 @@ export function EmployeeCard({ employeeData }: IEmployeeCardProps) {
   return (
     <Fragment>
       <Sty.Container>
-        <Sty.ButtonOptions>
-          <Sty.IconEdit onClick={() => setShowModalEmployee(true)} />
+        <Sty.ButtonOptions onClick={() => setShowModalEmployee(true)}>
+          <Sty.IconEdit />
         </Sty.ButtonOptions>
+        <Sty.ButtonChangeStatus
+          isActive={employeeData.is_active}
+          onClick={changeStatus}
+        >
+          <Sty.IconStatus />
+        </Sty.ButtonChangeStatus>
         <Sty.PersonalData>
           <Sty.DataTitle>Nome</Sty.DataTitle>
           <Sty.DataDescription>

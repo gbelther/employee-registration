@@ -1,7 +1,11 @@
-import styled from "styled-components";
-import { AiTwotoneEdit } from "react-icons/ai";
+import styled, { css } from "styled-components";
+import { AiTwotoneEdit, AiFillCheckCircle } from "react-icons/ai";
 
 import colors from "../../../../styles/colors";
+
+interface IButtonChangeStatusProps {
+  isActive: boolean;
+}
 
 export const Container = styled.div`
   background-color: ${colors.mostlyWhite};
@@ -53,6 +57,34 @@ export const ButtonOptions = styled.button`
   border: 1px solid ${colors.veryDarkGray};
   border-radius: 4px;
   transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: ${colors.darkBlue};
+    filter: brightness(0.7);
+  }
+`;
+
+export const ButtonChangeStatus = styled.button<IButtonChangeStatusProps>`
+  position: absolute;
+  right: 0.5rem;
+  top: 2.5rem;
+  border-radius: 4px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: ${colors.error};
+  border: 1px solid ${colors.error};
+
+  ${({ isActive }) =>
+    isActive &&
+    css`
+      background-color: ${colors.strongCyan};
+      border: 1px solid ${colors.strongCyan};
+    `}
 
   &:hover {
     background-color: ${colors.darkBlue};
@@ -61,6 +93,11 @@ export const ButtonOptions = styled.button`
 `;
 
 export const IconEdit = styled(AiTwotoneEdit).attrs({
+  size: "1.25rem",
+  color: colors.mostlyWhite,
+})``;
+
+export const IconStatus = styled(AiFillCheckCircle).attrs({
   size: "1.25rem",
   color: colors.mostlyWhite,
 })``;
