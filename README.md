@@ -9,6 +9,7 @@ Aplicativo que tem o objetivo de gerenciar o quadro de funcionários de empresas
 
 ## Melhorias futuras:
 - Testes automatizados de todos os componentes e funcionalidades;
+- Melhoria da Navbar em termos de responsividade e de funcionalidade;
 - Storybook de todos os componentes;
 - Drag and Drop dos cards da listagem dos funcionários;
 - Cadastro de um usuário e login do mesmo;
