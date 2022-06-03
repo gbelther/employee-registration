@@ -12,6 +12,8 @@ import {
 } from "../styles/pages/Home";
 import { FaLinkedinIn } from "react-icons/fa";
 
+import { Container } from "../components/pages/Home";
+
 export default function Home() {
   return (
     <MainContainer>
@@ -20,18 +22,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
-            <LogoContainer>
-              <Image
-                alt="Logo da Onyma by Bencorp"
-                src="/assets/Logo Onyma by Bencorp.svg"
-                width="88px"
-                height="53.59px"
-                layout="intrinsic"
-              />
-            </LogoContainer>
-          </Header>
+        <LogoContainer>
+          <Image
+            alt="Logo da Onyma by Bencorp"
+            src="/assets/Logo Onyma by Bencorp.svg"
+            width="88px"
+            height="53.59px"
+            layout="intrinsic"
+          />
+        </LogoContainer>
+      </Header>
       <ContentContainer>
-        <Title>Coloque seu layout aqui.</Title>
+        <Container />
       </ContentContainer>
 
       <Footer>
