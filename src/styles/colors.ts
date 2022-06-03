@@ -1,4 +1,5 @@
 const colors = {
+  black: "#212121",
   white: "#ffffff",
   mostlyWhite: "#f5f5f5",
   lightGray: "#cccccc",
@@ -10,6 +11,7 @@ const colors = {
   strongCyan: "#27b5bf",
   vividBlue: "#17a9fb",
   darkBlue: "#023D68",
+  error: "#BD0000",
 };
 
 export default colors;
