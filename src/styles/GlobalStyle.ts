@@ -7,6 +7,10 @@ export default createGlobalStyle`
         padding: 0;
     }
 
+    input, select {
+      background-color: transparent;
+    }
+
     body {
         background: #FFFFFF;
         color: ${colors.darkGray};
