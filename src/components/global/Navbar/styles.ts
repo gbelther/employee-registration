@@ -6,6 +6,10 @@ export const Container = styled.aside`
   min-width: 150px;
   padding: 1rem 0.5rem;
   background-color: ${colors.darkBlue};
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 `;
 
 export const NavigationWrapper = styled.nav`
