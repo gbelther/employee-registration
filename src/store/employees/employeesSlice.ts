@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { IError } from "../../errors/IError";
 import { IEmployeeDTO } from "../../services/employeesService/dtos/EmployeeDTO";
 import { createEmployee, listByCompanyId, updateEmployee } from "./thunks";
+import { updateStatusEmployee } from "./thunks/updateStatusEmployee";
 
 interface IEmployeesState {
   loading: boolean;
@@ -87,6 +88,33 @@ const userSlice = createSlice({
       }
     });
     addCase(updateEmployee.rejected, (state, { payload }) => {
+      const error: IError = {
+        message: (payload as IError).message,
+        statusCode: (payload as IError).statusCode,
+      };
+
+      state.loading = false;
+      state.error = error;
+    });
+
+    addCase(updateStatusEmployee.pending, (state) => {
+      state.loading = true;
+      state.error = null;
+    });
+    addCase(updateStatusEmployee.fulfilled, (state, { payload }) => {
+      const data = payload;
+
+      state.loading = false;
+      state.error = null;
+      state.data = state.data.map((employee) => {
+        if (employee.id === data.id) {
+          return data;
+        }
+
+        return employee;
+      });
+    });
+    addCase(updateStatusEmployee.rejected, (state, { payload }) => {
       const error: IError = {
         message: (payload as IError).message,
         statusCode: (payload as IError).statusCode,
