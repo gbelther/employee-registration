@@ -5,6 +5,7 @@ Aplicativo que tem o objetivo de gerenciar o quadro de funcionários de empresas
 - Listagem dos funcionários de acordo com a escolha da empresa em um Select;
 - Cadastro de um novo funcionário através de um formulário que é aberto clicando no botão (+) no canto superior direito da página;
 - Edição de um funcionários através de um formulário, clicando no botão de Edição localizado no canto superior direito do card de cada funcionário;
+- Mudança do status do funcionário para ativo/inativo, no botão em baixo do botão de edição;
 
 ## Melhorias futuras:
 - Testes automatizados de todos os componentes e funcionalidades;
