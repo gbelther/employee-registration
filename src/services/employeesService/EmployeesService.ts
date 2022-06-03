@@ -25,4 +25,13 @@ export class EmployeesService {
   ): Promise<AxiosResponse<IEmployeeDTO>> {
     return await api.put<IEmployeeDTO>(`/employees/${employee.id}`, employee);
   }
+
+  public static async updateStatusEmployee(
+    id: string,
+    isActive: boolean
+  ): Promise<AxiosResponse<IEmployeeDTO>> {
+    return await api.patch<IEmployeeDTO>(`/employees/${id}`, {
+      is_active: isActive,
+    });
+  }
 }
