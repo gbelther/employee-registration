@@ -85,6 +85,7 @@ const generateEmployeesData = (quantity) => {
     const role = rolesData[Math.floor(Math.random() * rolesData.length)];
     const id_company =
       companiesData[Math.floor(Math.random() * companiesData.length)].id;
+    const is_active = Math.floor(Math.random() * 3) > 0;
 
     employees.push({
       id: faker.datatype.uuid(),
@@ -104,6 +105,7 @@ const generateEmployeesData = (quantity) => {
       phone: faker.random.numeric(10),
       role,
       id_company,
+      is_active,
     });
   }
 
