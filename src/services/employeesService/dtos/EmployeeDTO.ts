@@ -25,4 +25,5 @@ export interface IEmployeeDTO {
   phone: string;
   role: IRoleEmployeeDTO;
   id_company: string;
+  is_active: boolean;
 }
