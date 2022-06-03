@@ -23,6 +23,7 @@ export const Container = styled.div`
   position: relative;
 
   @media (max-width: 524px) {
+    min-width: 250px;
     display: flex;
     flex-direction: column;
   }
